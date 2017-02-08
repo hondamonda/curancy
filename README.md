@@ -54,6 +54,6 @@ public class Hello {
 		case "yd" : convert = convert * 1.0936133; break;
 		}
 		
-		System.out.println(convert + " " + output);
+		System.out.printf("%f %s",convert ,output);
 	}
 }
